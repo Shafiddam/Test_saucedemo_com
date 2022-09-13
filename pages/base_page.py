@@ -29,7 +29,7 @@ class BasePage():
         # time.sleep(2)
 
     def enter_login_locked_out_user(self):
-        """ вводим в поле поиска слово "Тензор": """
+        """ вводим user_name и password: """
         name = "locked_out_user"
         password = "secret_sauce"
         user_name = self.browser.find_element(*BasePageLocators.INPUT_USER_NAME)
@@ -43,7 +43,7 @@ class BasePage():
         # time.sleep(2)
 
     def enter_login_problem_user(self):
-        """ вводим в поле поиска слово "Тензор": """
+        """ вводим user_name и password: """
         name = "problem_user"
         password = "secret_sauce"
         user_name = self.browser.find_element(*BasePageLocators.INPUT_USER_NAME)
@@ -57,7 +57,7 @@ class BasePage():
         # time.sleep(2)
 
     def enter_login_performance_glitch_user(self):
-        """ вводим в поле поиска слово "Тензор": """
+        """ вводим user_name и password: """
         name = "performance_glitch_user"
         password = "secret_sauce"
         user_name = self.browser.find_element(*BasePageLocators.INPUT_USER_NAME)
